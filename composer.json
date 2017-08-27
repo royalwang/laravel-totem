@@ -16,13 +16,22 @@
     }
   ],
   "require": {
-    "php": ">=5.6.4"
+    "php": ">=5.6.4",
+    "illuminate/bus":"~5.4",
+    "illuminate/console": "~5.4",
+    "illuminate/contracts": "~5.4",
+    "illuminate/database":"~5.4",
+    "illuminate/events": "~5.4",
+    "illuminate/notifications": "~5.4"
   },
   "require-dev": {
     "mockery/mockery": "~0.9",
     "orchestra/database": "~3.0",
     "orchestra/testbench" : "~3.0",
     "phpunit/phpunit": "~6.0"
+  },
+  "suggest": {
+    "nexmo/client": "Required for sms notifications."
   },
   "autoload": {
     "psr-4": {
